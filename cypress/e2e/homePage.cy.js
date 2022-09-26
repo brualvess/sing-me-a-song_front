@@ -10,4 +10,10 @@ describe('Testa rota /', () => {
   
     cy.url().should('equal', BASE_URL)
   })
+  it('Votar em uma recomendação', ()=>{
+    for (let i = 0; i <= 10; i++) {
+      cy.get("#upvote").click();
+    }
+  })
+
 })
