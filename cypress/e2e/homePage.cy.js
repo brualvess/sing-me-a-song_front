@@ -15,5 +15,9 @@ describe('Testa rota /', () => {
       cy.get("#upvote").click();
     }
   })
-
+  it('Votar negativo em uma recomendação', ()=>{
+    for (let i = 0; i <= 1; i++) {
+      cy.get("#downvote").click();
+    }
+  })
 })
