@@ -4,7 +4,7 @@ Este projeto é a implementação de testes End-to-End no front com o Cypress, �
 Este é o [link](https://github.com/brualvess/sing-me-a-song_back-end) do repositório do back-end, onde é implementado os testes de integração e unitário.
 
 ### Teste unitário
-Dentro da pasta, rode o seguinte comando para instalar as dependencias
+Dentro da pasta, rode o seguinte comando para instalar as dependências
 
 ```
 $ npm install
