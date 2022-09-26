@@ -1,0 +1,13 @@
+const BASE_URL = 'http://localhost:3000/';
+describe('Testa rota /', () => {
+  it('Criar uma recomendação', () => {
+
+    cy.visit(BASE_URL)
+
+    cy.get('#name').type('Test')
+    cy.get('#youtubeLink').type('https://www.youtube.com/watch?v=Uv9URjIBtUQ')
+    cy.get('.create-recommendation').click();
+  
+    cy.url().should('equal', BASE_URL)
+  })
+})
