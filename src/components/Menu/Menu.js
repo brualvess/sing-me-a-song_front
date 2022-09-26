@@ -21,7 +21,7 @@ export default function Menu() {
       </MenuItem>
 
       <MenuItem onClick={() => navigate("/random")}>
-        <FiShuffle />
+        <FiShuffle  id="random"/>
         Random
       </MenuItem>
     </StyledMenu>
